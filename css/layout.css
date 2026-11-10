@@ -1,0 +1,38 @@
+/* centers and aligns elements */
+.l-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* gallery */
+/* gallery layout */
+#gallery-div{
+    display: inline-block;
+    column-count: 4;
+    column-gap: 0px;
+    line-height: 1;
+    margin-top: 12px;
+}
+
+/* display 3 columns 550px - 700px */
+@media (max-width: 700px){
+    #gallery-div{
+        column-count: 3;
+    }
+}
+
+/* displays 2 columns 550px - 400px */
+@media (max-width: 550px){
+    #gallery-div{
+        column-count: 2;
+    }
+}
+
+/* displays 1 column 400px and under */
+@media (max-width: 400px){
+    #gallery-div{
+        column-count: 1;
+    }
+}
