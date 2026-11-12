@@ -12,9 +12,32 @@ body {
 
 /* title style */
 h1 {
-    background-color: rgb(218, 155, 121);
+    background-color: rgb(212, 63, 63);
     color: rgb(21, 33, 35);
     font-size: 30px;
     padding: 1vw;
     width: 100vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
 }
