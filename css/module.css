@@ -9,13 +9,6 @@
 .card img {
     width: 100%;
     height: auto;
-}
-
-/* text style */
-.card p {
-    background-color: rgb(21, 33, 35);
-    color: rgb(212, 210, 207);
-    width: 100%;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
